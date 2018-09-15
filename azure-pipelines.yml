@@ -27,6 +27,6 @@ steps:
 
  - task: PublishBuildArtifacts@1
    inputs:
-   pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
-   artifactName: "DACPAC"   
-   publishLocation: 'Container'
+    pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
+    artifactName: 'DACPAC'
+    publishLocation: 'Container'
