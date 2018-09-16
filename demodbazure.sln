@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "demodbazure", "demodbazure\demodbazure.sqlproj", "{2DABEF14-52BC-4E45-9F6A-FF64B99556F9}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TSQLT", "TSQLT\TSQLT.sqlproj", "{74B8855E-073E-45EB-AE33-D23B0100D08A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{2DABEF14-52BC-4E45-9F6A-FF64B99556F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DABEF14-52BC-4E45-9F6A-FF64B99556F9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2DABEF14-52BC-4E45-9F6A-FF64B99556F9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{74B8855E-073E-45EB-AE33-D23B0100D08A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74B8855E-073E-45EB-AE33-D23B0100D08A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74B8855E-073E-45EB-AE33-D23B0100D08A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{74B8855E-073E-45EB-AE33-D23B0100D08A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74B8855E-073E-45EB-AE33-D23B0100D08A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74B8855E-073E-45EB-AE33-D23B0100D08A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
