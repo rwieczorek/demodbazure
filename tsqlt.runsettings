@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <TestRunParameters>
+    <Parameter name="TestDatabaseConnectionString" value="server=azuresqldwrob.database.windows.net;initial catalog=demoDB;User ID=rob;Password=5ql1sgreat!"/>
+  </TestRunParameters>
+</RunSettings>

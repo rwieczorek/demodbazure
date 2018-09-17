@@ -65,6 +65,8 @@
     <Folder Include="tSQLt\User Defined Types\" />
     <Folder Include="Assemblies\" />
     <Folder Include="Security\" />
+    <Folder Include="Security\Schemas" />
+    <Folder Include="DWUnitTests" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\demodbazure\demodbazure.sqlproj">
@@ -139,7 +141,9 @@
     <Build Include="tSQLt\Stored Procedures\AssertObjectExists.sql" />
     <Build Include="tSQLt\User Defined Types\Private.sql" />
     <Build Include="tSQLt\User Defined Types\AssertStringTable.sql" />
-    <Build Include="Security\tSQLt.sql" />
+    <Build Include="Security\Schemas\tSQLt.sql" />
+    <Build Include="Security\Schemas\DWUnitTests.sql" />
+    <Build Include="DWUnitTests\Test.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />
