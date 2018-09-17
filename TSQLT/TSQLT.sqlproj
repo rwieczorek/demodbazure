@@ -144,6 +144,7 @@
     <Build Include="Security\Schemas\tSQLt.sql" />
     <Build Include="Security\Schemas\DWUnitTests.sql" />
     <Build Include="DWUnitTests\Test.sql" />
+    <Build Include="DWUnitTests\Test2.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assemblies\tSQLtCLR.dll" />
