@@ -58,8 +58,10 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Stored Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Table.sql" />
+    <Build Include="Stored Procedures\uspInsertIntoTable.sql" />
   </ItemGroup>
 </Project>
